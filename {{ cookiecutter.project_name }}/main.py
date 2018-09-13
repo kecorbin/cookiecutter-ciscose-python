@@ -30,15 +30,3 @@ __license__ = "Cisco Sample Code License, Version 1.0"
 
 
 # Your code goes here.
-indent = 4
-print(
-    __doc__,
-    "Author:",
-    " " * indent + __author__,
-    "Contributors:",
-    "\n".join([" " * indent + name for name in __contributors__]),
-    "",
-    __copyright__,
-    "Licensed Under: " + __license__,
-    sep="\n"
-)
