@@ -1,1 +1,4 @@
 # requirements for this project
+# Remember to verify that your projects third-party's dependencies are allowed 
+# under the terms of Cisco's Policy for Systems Engineers Creating & Sharing 
+# Sample Code.

@@ -24,23 +24,9 @@ from __future__ import absolute_import, division, print_function
 
 
 __author__ = "{{ cookiecutter.author_name }} <{{ cookiecutter.author_email }}>"
-__contributors__ = [
-    "{{ cookiecutter.author_name }} <{{ cookiecutter.author_email }}>"
-]
+__contributors__ = []
 __copyright__ = "Copyright (c) {% now 'utc', '%Y' %} Cisco and/or its affiliates."
 __license__ = "Cisco Sample Code License, Version 1.0"
 
 
 # Your code goes here.
-indent = 4
-print(
-    __doc__,
-    "Author:",
-    " " * indent + __author__,
-    "Contributors:",
-    "\n".join([" " * indent + name for name in __contributors__]),
-    "",
-    __copyright__,
-    "Licensed Under: " + __license__,
-    sep="\n"
-)
