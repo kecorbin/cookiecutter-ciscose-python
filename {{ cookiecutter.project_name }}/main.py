@@ -24,9 +24,7 @@ from __future__ import absolute_import, division, print_function
 
 
 __author__ = "{{ cookiecutter.author_name }} <{{ cookiecutter.author_email }}>"
-__contributors__ = [
-    "{{ cookiecutter.author_name }} <{{ cookiecutter.author_email }}>"
-]
+__contributors__ = []
 __copyright__ = "Copyright (c) {% now 'utc', '%Y' %} Cisco and/or its affiliates."
 __license__ = "Cisco Sample Code License, Version 1.0"
 
